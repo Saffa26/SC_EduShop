@@ -1,0 +1,158 @@
+body {
+    background-color: #0c5192;
+    color: #fff;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ffcc00 !important;
+}
+
+.navbar-nav .navbar-link {
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.navbar-nav .navbar-link :hover {
+    color: #ffcc00 !important;
+}
+
+.hero {
+    position: relative;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.btn-register {
+    background-color: #ffde59;
+    color: #004f9f !important; 
+    font-weight: bold;
+    border: none;
+}
+
+.btn-register :hover {
+    background-color: #ffcc00;
+    color: #004f9f !important;
+}
+
+.circle-bg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 350px;
+    height: 350px;
+    background-color: #ffde59;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+
+.hero-image {
+    position: relative;
+    z-index: 2;
+    max-width: 100%;
+}
+
+.about-us {
+    background-color: #ffffff;
+    color: #333;
+    padding: 60px 0;
+}
+
+.about-us {
+    background-color: #ffffff;
+    color: #333;
+    padding: 60px 0;
+}
+
+.about-us h2 {
+    color: #004f9f;
+    font-weight: bold;
+}
+
+.about-us p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.category .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.category .card-img {
+    filter: brightness(70%);
+}
+
+.category .card-title {
+    font-size: 1.8rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(0,0, 0, 0.5);
+}
+
+.team .card {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.team h2 {
+    color: #004f9f;
+    font-weight: bold;
+}
+
+.team .card :hover {
+    transform: translate(-10px);
+}
+
+.team img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+ 
+.footer {
+    background-color: #0c5192;
+    color: #ffffff;
+}
+
+.footer h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer p,
+.footer span {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer a {
+    transition: color 0.3s ease; 
+}
+
+.footer a:hover {
+    color: #d1e7ff;
+}
+
+.footer .list-unstyled li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.footer .list-unstyled i {
+    font-size: 1rem;
+    margin-right: 10px;
+    color: #d1e7ff;
+}
+
+.map-container iframe {
+    border-radius: 8px;
+}
